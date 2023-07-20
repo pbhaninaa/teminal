@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex:0;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background-color: lightslategrey !important ;
+    height:10vh;
+    width: 100%;
+    position: fixed;
+
+    margin-left: 0%;
+    padding-top: 30%;
+  
+}
+.row{
+    display: flex !important;
+    flex-direction: row!important;
+    justify-content: space-around!important;
+    align-items:left!important;
+    flex-wrap: wrap!important;
+}
