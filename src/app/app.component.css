@@ -1,16 +1,48 @@
-.header{
-    background-color: lightslategrey !important ;
-    height:10vh;
-    width: 100%;
-    position: fixed;
+
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: sticky;
     top: 0;
-    margin-left: 0%;
-}
-.row{
-    display: flex !important;
-    flex-direction: row!important;
-    justify-content: space-around!important;
-    align-items: center!important;
-    flex-wrap: wrap!important;
+    left: 0;
+    right: 0;
+    height: 30px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    display: flex;
+    background-color: #cacccf;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .col{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-right: 1%;
     
-}
+  } 
+
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+    
+    .terminal {
+      width: 100%;
+    }
+
+    
+  }
+
+  @media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
+  }

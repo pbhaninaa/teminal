@@ -20,6 +20,10 @@ import { VoiceOverrideComponent } from './shared/components/operator-menu/manual
 import { ReportsMenuComponent } from './shared/components/reports-menu/reports-menu.component';
 import { ParametersComponent } from './shared/components/reports-menu/parameters/parameters.component';
 import { ManualCardEntryComponent } from './shared/components/operator-menu/manual-card-entry/manual-card-entry.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 
 @NgModule({
   declarations: [
@@ -44,7 +48,10 @@ import { ManualCardEntryComponent } from './shared/components/operator-menu/manu
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
